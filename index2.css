@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* COUNTER */
+.main-container{
+    width: auto;
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: 400px auto;
+    justify-content: center;
+    align-items: center;
+}
+.counter-header h1{
+    font-size: 30px;
+    color: #fff;
+}
+.counter-container{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 30px;
+    color: #fff;
+}
+.counter-container .counter{
+    background-color: #272626;
+    padding: 1em;
+    width: 220px;
+    height: auto;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    border-radius: 5px;
+    border: 1px solid #10d8ac;
+}
+.counter-container .counter .boxLogo{
+    font-size: 50px;
+    color: #10d8ac;
+}
+.main-container .counter-container .counter .boxHead h4{
+    margin-bottom: 1em;
+}
+
+
+/* CONTACT PAGE */
+
+.contactPage{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: auto;
+    margin: 3em;
+    margin-left: 0;
+    grid-gap: 5px;
+    background-image: url("world.png") ;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.contactPage .cntImg{
+    height: 100px;
+    width: 100px;
+}
+.contactPage .formPage{
+    height: 390px;
+    /* background-color: red; */
+    border-radius: 3px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 2em;
+    margin-left: 0;
+}
+.contactPage .formPage form{
+        margin: 1em;
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: 0;
+}
+.contactPage .formPage h1{
+    color: #fff;
+}
+.contactPage .formPage .frm1{
+    margin-top: 10px;
+} 
+.contactPage .formPage .frm2{
+    margin-top: 0.8em;
+}
+.contactPage .formPage .frm3{
+    margin-top: 0.8em;
+}
+.contactPage .formPage .frm4 #txt{
+    height: 170px;
+    width: 410px;
+    justify-content: baseline;
+    border: 1px solid #fff;
+    margin-top: 10px;
+    outline: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: inherit;
+    font-size: 14px;
+}
+.contactPage .formPage #txt::placeholder{
+    color: #fff;
+}
+
+.contactPage .formPage input{
+    height: 45px;
+    width: 410px;
+    padding: 11px;
+    font-size: 15px;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: inherit;
+    outline: none;
+}
+
+.contactPage .formPage input::placeholder{
+    color: #fff;
+}
+.contactPage .formPage button{
+    width: 220px;
+    height: 35px;
+    margin-top: 8px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 13x;
+    background-color:#111;
+    border: 1px solid #fff;
+}
+.contactPage .formPage button:hover{
+    background-color: #10d8ac;
+    color: #111;
+}
+.contactPage .boxes{
+    display: grid;
+    grid-template-columns: 225px 225px;
+    grid-gap: 5px;
+    /* background-color: white; */
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #111;
+    margin: 2em;
+    margin-top: 3em;
+    margin-left: 1em;
+    margin-right: 0;
+}
+.contactPage .email-details, .phone-details, .location-details, .freelance-details{
+    background-color: #fff;
+    padding: 20px;
+    height: 170px;
+}
+
+.contactPage .boxes .contact-logo{
+    font-size: 50px;
+    color: #10d8ac;
+}
+.contactPage .boxes a{
+    text-decoration: none;
+    color: #10d8ac;
+}

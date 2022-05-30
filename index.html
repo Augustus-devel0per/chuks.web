@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Augustus | Software Developer</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index2.css">
+    <link rel="stylesheet" href="mymedia.css">
+    <script src="https://kit.fontawesome.com/e95f8b0180.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&family=Viga&display=swap');
+    </style>
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <!-- Customized Cursor -->
+    <!-- <div class="cursor"></div> -->
+
+    <!--TOP NAVIGATION-->
+    <div class="container">
+        <div class="nav">
+            <div class="logo">
+                <a href="#" class="openbtn" onclick="openNav()">&#9776;</a>
+                <h3>| Chuks </h3>
+            </div>
+            <div class="topnav">
+                <ul class="topnav-list" id="navUl">
+                    <li><a class="navLi current" href="">Home</a></li>
+                    <li><a class="navLi" href="#about">AboutMe</a></li>
+                    <li><a class="navLi" href="#services">Services</a></li>
+                    <li><a class="navLi" href="#skill">Skills</a></li>
+                    <!-- <li><a class="navLi" href="#experience">Experience</a></li> -->
+                </ul>
+            </div>
+        </div>
+
+
+
+        <!--SIDE-NAVIGATION-->
+        <div id="mySidenav" class="sidenav">
+
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="/">Home</a>
+            <a href="#about">AboutMe</a>
+            <a href="#services">Services</a>
+            <a href="#skill">Skills</a>
+        </div>
+
+        <!-- HOME CONTENT -->
+        <div id="home">
+            <div class="pic">
+                <img src="ejikee.jpg" alt="" class="home-photo">
+            </div>
+            <div class="home-content">
+                <div class="home-details">
+                    <button>Hello I'm</button><br><br>
+                    <h1>Ejike Augustus</h1><br>
+                    <h4>Software Developer</h4><br>
+                    <span>Email: ejikechuks2000@gmail.com</span><br><br>
+                    <span>Tel: +234 915 779 5326</a></span>
+                </div>
+
+
+                <!-- SOCIAL ICON -->
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/augustus.ejike.7">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                     <a href="https://www.instagram.com/_chuks_gram/">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ejike-augustus-2a6637224/">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                    <a href="mailto:ejikechuks2000@gmail.com">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- PROFILE -->
+        <a href="" name="about"></a>
+        <div class="about-header reveal">
+            <h2>About me</h2><br>
+            <p>Biography</p>
+        </div>
+        <!-- ABOUT SECTION -->
+        <div class="about reveal">
+            <div class="about-content">
+                <div class="typing-container">
+                    <span id="sentence" class="sentence">I am a </span>
+                    <span id="feature-text"></span>
+                    <span class="input-cursor"></span>
+                </div>
+                <br>
+                <p>Ejike Augustus Chukwudi is a result-driven / team-oriented dedicated
+                    individual. I hold a Bs.c in Accounting
+                    from the prestigious Alex Ekwueme Federal University Ebonyi State. I am a dynamic and innovative software developer with 3+ years of expertise
+                    in modular and object-oriented programming, website design/development, troubleshooting, and
+                    graphics design. <br><br> I work as a consultant at JFORCE Jumia Nigeria and also as a freelancer at Fiverr.com. I am enthusiastic to assist your tema to contribute to organization and client growth.
+                </p><br><br>
+                <div class="info">
+                    <ul>
+                        <li><span>Name |</span> Ejike Augustus Chukwudi</li>
+                        <li><span>Degree |</span> BS.c</li>
+                        <li><span>Address |</span> Army Post Service Estate Ojo, Lagos.</li>
+                        <li><span>Hobbies |</span> Video games, Coding</li>
+                        <li>
+                            <a href="Ejike-Augustus CV.pdf" download="Ejike-CV.pdf">
+                                <button type="button">Download My CV</button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="photo">
+                <img src="me.jpg" class="about-photo" id="mainImage" alt="">
+            </div>
+        </div>
+
+
+
+        <!-- SKILLS -->
+        <!-- SKILLS -->
+        <a href="" name="services"></a>
+        <div class="skills reveal">
+            <div class="skill-header">
+                <h2>What I do</h2>
+            </div>
+            <div class="mySkill">
+                <div class="skill">
+                    <ion-icon class="skillPic" name="code-outline"></ion-icon>
+                    <h2>Web Development</h2>
+                    <div class="skillContent">
+                        From Web Components and UI/UX animations to React.JS, and Laravel. Check out my web software development portfolio projects.
+                    </div>
+                </div>
+                <div class="skill">
+                    <img class="skillPic" src="illustrator.jpg" alt="">
+                    <h2>Adobe Illustrator</h2>
+                    <div class="skillContent">
+                        I use AI to design flexible and free-flowing web elements. It includes vector
+                        images,
+                        responsive
+                        media icons, scalable components, CSS generations, SVG export,
+                        and
+                        reusable symbols-
+                        everything needed to make a clean and clear web layout.
+
+                    </div>
+                </div>
+                <div class="skill">
+                    <img class="skillPic res" src="responsive.jpg" alt="">
+                    <h2>Responsive website</h2>
+                    <div class="skillContent">
+                    Responsive Web Design (RWD) through Cascading Style Sheets (CSS) to serve different style properties depending on the screen size, orientation, resolution, color capability, and other characteristics of the user's device and screen sizes by automatically adapting to the screen, from Desktop view to Tablet view and Smartphone, or even a Smart TV!
+                    </div>
+                </div>
+                <div class="skill">
+                    <img class="skillPic" src="wordpress.jpg" alt="">
+                    <h2>WordPress</h2>
+                    <div class="skillContent">
+                        Custom WordPress theme and plugin development. Easily update content, customizing web pages, without
+                        knowing how to
+                        code.
+                    </div>
+                </div>
+                <div class="skill">
+                    <img class="skillPic" src="react.jpg" alt="">
+                    <h2>React.js</h2>
+                    <div class="skillContent">
+                        An open-source javascript framework managed by facebook. I use React to
+                        build user-interface
+                        specifically for single-page applications. Reusable UI component can also be
+                        achieved with
+                        react.
+                    </div>
+                </div>
+                <div class="skill">
+                    <img class="skillPic" src="laravel.png" alt="">
+                    <h2>LARAVEL</h2>
+                    <div class="skillContent">
+                        To develop and construct web apps, services, sites, and tools, I utilize the Laravel web framework. <br> Laravel is a PHP-based MVC framework for building websites, databases, forums, and caches that uses OOP. The framework's tools and libraries enable me to easily create scalable and resilient software.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SKILLS -->
+        <a href="" name="skill"></a>
+
+        <div class="ability reveal">
+
+            <div class="abilityheader">
+                <h2>Skills</h2>
+            </div>
+            <div class="progressBar">
+                <h1>Technical Skills</h1>
+                <div class="bar1">
+                    <h3>HTML <span>100%</span></h3>
+                    <div class="grey">
+                        <div class="lightgreen1">
+                        </div>
+                    </div>
+                </div>
+                <div class="bar2">
+                    <h3>CSS <span>80%</span></h3>
+                    <div class="grey">
+                        <div class="lightgreen2">
+                        </div>
+                    </div>
+                </div>
+                <div class="bar3">
+                    <h3>Javascript <span>70%</span></h3>
+                    <div class="grey">
+                        <div class="lightgreen3">
+                        </div>
+                    </div>
+                </div>
+                <div class="bar4">
+                    <h3>J-Query <span>80%</span></h3>
+                    <div class="grey">
+                        <div class="lightgreen4">
+                        </div>
+                    </div>
+                </div>
+                <div class="bar5">
+                    <h3>React.js<span>50%</span></h3>
+                    <div class="grey">
+                        <div class="lightgreen5">
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="bar6">
+                    <h3>Python<span>89%</span></h3>
+                    <div class="grey">
+                        <div class="lightgreen6">
+                        </div>
+                    </div>
+                </div> -->
+                <div class="bar7">
+                    <h3>PHP<span>60%</span></h3>
+                    <div class="grey">
+                        <div class="lightgreen7">
+                        </div>
+                    </div>
+                </div>
+                <div class="bar8">
+                    <h3>Laravel<span>50%</span></h3>
+                    <div class="grey">
+                        <div class="lightgreen8">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- CIRCLE PROGRES BAR -->
+            <div class="progress2">
+                <h2>Professional Skills</h2>
+                <div class="boxx">
+                    <div class="percent">
+                        <svg>
+                            <circle class="c1" cx="70" cy="70" r="70"></circle>
+                            <circle class="c11" cx="70" cy="70" r="70"></circle>
+                        </svg>
+                        <div class="num">
+                            <h2>90<span>%</span></h2>
+                        </div>
+                    </div>
+                    <h2 class="txxt">Communication</h2>
+                </div>
+                <div class="boxx">
+                    <div class="percent">
+                        <svg>
+                            <circle class="c1" cx="70" cy="70" r="70"></circle>
+                            <circle class="c1" cx="70" cy="70" r="70"></circle>
+                        </svg>
+                        <div class="num">
+                            <h2>70<span>%</span></h2>
+                        </div>
+                    </div>
+                    <h2 class="txxt">Team Spirit</h2>
+                </div>
+                <div class="boxx">
+                    <div class="percent">
+                        <svg>
+                            <circle class="c2" cx="70" cy="70" r="70"></circle>
+                            <circle class="c2" cx="70" cy="70" r="70"></circle>
+                        </svg>
+                        <div class="num">
+                            <h2>75<span>%</span></h2>
+                        </div>
+                    </div>
+                    <h2 class="txxt">Creative Thinking</h2>
+                </div>
+                <div class="boxx">
+                    <div class="percent">
+                        <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle cx="70" cy="70" r="70"></circle>
+                        </svg>
+                        <div class="num">
+                            <h2>80<span>%</span></h2>
+                        </div>
+                    </div>
+                    <h2 class="txxt">Productivity</h2>
+                </div>
+            </div>
+        
+        </div>
+    
+
+
+        <!-- FUN FACTS -->
+        <div class="main-container">
+            <div class="counter-header">
+                    <h1>Fun Facts</h1>
+            </div>
+            <div class="counter-container">
+                <div class="counter">
+                    <div class="boxLogo">
+                        <ion-icon name="body-outline"></ion-icon>
+                    </div>
+                    <div class="boxHead">
+                            <h4>Happy Clients</h4>
+                    </div>
+                    <div class="boxFIgure">
+                        <h1 data-target="211" class="count">0</h1>
+                    </div>
+                </div>
+                <div class="counter">
+                    <div class="boxLogo">
+                        <ion-icon name="time-outline"></ion-icon>
+                    </div>
+                    <div class="boxHead">
+                        <h4>Working Hours</h4>
+                    </div>
+                    <div class="boxFIgure">
+                        <h1 data-target="1200" class="count">0</h1>
+                    </div>
+                </div>
+                <div class="counter">
+                    <div class="boxLogo">
+                        <ion-icon name="cafe-outline"></ion-icon>
+                    </div>
+                    <div class="boxHead">
+                        <h4>Cup of coffee</h4>
+                    </div>
+                    <div class="boxFIgure">
+                        <h1 data-target="288" class="count">0</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- PROFESSIONAL SKILL -->
+        <a href="" name="experience"></a>
+        <div class="experience reveal">
+            <div class="experience-header">
+              <!-- <h2>Experience</h2> -->
+            </div><br>
+            <img src="blog.jpg" class="proImg" style="width: 100%; height: 100%;" alt="">
+            <div class="interest">
+                <h1>Interested to Work?</h1>
+                <p>Kindly hit the contact button below <br> <br> for works and project collaborations or fill the
+                contact
+                form below.
+                </p><br><br><br>
+
+                <a href="mailto:ejikechuks2000@gmail.com">Contact me</a>
+            </div>
+        </div> <br><br><br>
+
+        
+        <!-- CONTACT PAGE -->
+        <!-- <a href="" name="contact"></a>
+        <div class="contactPage reveal">
+            <div class="boxes">
+                <div class="email-details">
+                    <div class="contact-logo">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </div>
+                     <div class="contact-header">
+                        <h5>EMAIL ADDRESS</h5>
+                    </div>
+                    <div class="contact-txt">
+                        <a href="mailto:ejike.chuks.dev@gmail.com">ejike.chuks.dev@gmail.com</a>
+                    </div>
+                </div>    
+                <div class="phone-details">
+                    <div class="contact-logo">
+                        <ion-icon name="call-outline"></ion-icon>
+                    </div>
+                    <div class="contact-header">
+                        <h5>PHONE NUMBER</h5>
+                    </div>
+                    <div class="contact-txt">
+                        <a href="tel:+2349157795326"> +234 915 7795 326</a> <br>
+                        <a href="tel:+2348105166443"> +234 810 5166 443</a> <br>
+                        <a href="tel:+2349073543305"> +234 907 3543 305</a>
+                    </div>
+                </div>
+                <div class="freelance-details">
+                    <div class="contact-logo">
+                        <ion-icon name="checkmark-circle-outline"></ion-icon>
+                    </div>
+                    <div class="freelance-header">
+                        <h5>Freelancer</h5>
+                    </div>
+                    <div class="contact-txt">
+                        Freelance Available.
+                    </div>
+                </div>
+                <div class="location-details">
+                    <div class="contact-logo">
+                        <ion-icon name="location-outline"></ion-icon>
+                    </div>
+                    <div class="contact-header">
+                        <h5>Location</h5>
+                    </div>
+                    <div class="contact-txt">
+                        Army Post-service Estate, Ojo Lagos.
+                    </div>
+                </div>
+            </div>     -->
+            <!-- FORM PAGE -->
+            <!-- <div class="formPage">
+                <form action="output" method="get">
+                    <h1>Contact Me</h1>
+                    <div class="frm1">
+                        <input type="text" for="firstname" name="firstname" id="Firstname" placeholder="First Name">
+                    </div>
+                    <div class="frm2">
+                        <input type="text" for="lastname" name="lastname" id="Lastname" placeholder="Last Name">
+                    </div>
+                    <div class="frm3">
+                        <input type="email" for="email" name="email" id="emailid" placeholder="Enter a valid email address">
+                    </div>
+                    <div class="frm4">
+                        <textarea name="message" id="txt" cols="30" rows="10" placeholder="Send a message..."></textarea>
+                    </div>
+                    <div class="send">
+                        <button type="submit" value="submit" id="mybtn">SUBMIT</button>
+                    </div>
+                </form>
+   
+            </div> -->
+    
+        </div>  
+            
+
+        <!-- FOOTER -->
+        <div class="footer-section">
+            <div class="footer">
+                &copy; 2020-2022. All rights reserved Augustus.
+                <div class="social-icon2">
+                    <a href="https://www.facebook.com/augustus.ejike.7">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                    <a href="https://www.instagram.com/_chuks_gram/">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ejike-augustus-2a6637224/">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                    <a href="https://github.com/Augustus-devel0per">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <script src="jquery-3.6.0.js"></script>
+        <script src="jquery-3.6.0.min.js"></script>
+        <script src="script.js"></script>
+    </div>
+
+</body>
+
+</html>
